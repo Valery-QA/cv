@@ -1,0 +1,146 @@
+
+@import url('link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap');
+
+body {
+  font-family: "Helvetica";
+  background-color: #cbe2f5;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin: 40px 0;
+}
+
+.header__avatar {
+  border-radius: 50%;
+  border: 2px solid rgb(249, 248, 248);
+  width: 300px;
+}
+img.header__avatar:hover {
+  border: 3px solid rgb(250, 167, 99);
+  
+}
+
+.header__telegram {
+  border-radius: 100%;
+  width: 28px;
+}
+
+.header__e-mail {
+  border-radius: 100%;
+  width: 25px;
+}
+
+.header__vk {
+  border-radius: 100%;
+  width: 25px;
+}
+
+.header__whatsapp {
+  border-radius: 100%;
+  width: 25px;
+}
+
+.header__viber {
+  border-radius: 100%;
+  width: 25px;
+}
+
+
+.header__title {
+  margin: 30px 0 10px 0;
+  font-size: 32px;
+  line-height: 1.2;
+  font-family: 'Jans', sans-serif;
+}
+
+.header__subtitle {
+  color: #8f8f8f;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.links {
+  width: 320px;
+  margin-bottom: 40px;
+}
+
+.links__header {
+  font-family: 'Jans', sans-serif;
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+}
+
+.links__container {
+  list-style-type: none;
+  background: #dfe6f5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 15px 10px;
+  gap: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.links__link,
+.links__title {
+  font-size: 14px;
+  font-size: 1.4;
+}
+
+.links__link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 0px 10px;
+  gap: 10px;
+  border-bottom: 1px solid #dadada;
+  width: 300px;
+}
+
+.links__link:last-child {
+  border-bottom: none;
+}
+
+.linsk__link,
+.links__link:visited {
+  text-decoration: none;
+  color: #131367;
+}
+
+.links__title {
+  margin: 0;
+  min-width: 100px;
+}
+
+footer {
+  margin: 0 0 40px 0;
+}
+.button-link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 320px;
+  background: #9dacf2;
+  border-radius: 20px;
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  color: #0a0a0a;
+  text-decoration: none;
+}
